@@ -1,0 +1,21 @@
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -150px;
+
+}
+
+.dropdown-item:active{
+    background-color: #47D3CE;
+}
+
+
+.txt{
+    /* background-color: #47D3CE; */
+    color:#05b9b3;
+}
+
+.txt:hover{
+    /* background-color: #04b3ad; */
+    color:#049c97;
+
+}

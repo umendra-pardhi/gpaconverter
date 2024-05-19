@@ -1,25 +1,65 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Home from './components/Home';
+import Header from "./components/Header";
+import Footer from './components/Footer';
+import CGPAToPercent from './components/CgpaToPercent';
+import About from './components/About';
+import GradeToSgpa from './components/GradeToSgpa';
+import SgpaToCgpa from './components/SgpaToCgpa';
+import CGPACalculator from './components/CgpaCalculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RouterProvider router={router}>
+    </RouterProvider>
   );
 }
+
+const router=createBrowserRouter([
+  {
+    path:'/',
+    element:
+    <>
+    <Header/>
+    <Home/>
+    <Footer/>
+    </>
+  },
+  {
+    path:'/about',
+    element:<>
+      <Header/>
+   <About/>
+    <Footer/>
+    </>
+  },
+  {
+    path:'/cgpa-to-percent',
+    element:<>
+    <Header/>
+      <CGPAToPercent/>
+      <Footer/>
+    </>
+  },
+  {
+    path:'/grade-to-sgpa',
+    element:<>
+      <Header/>
+   <GradeToSgpa/>
+   <Footer/>
+    </>
+  },
+ 
+  {
+    path:'/cgpa-calculator',
+    element:<>
+      <Header/>
+   <CGPACalculator/>
+   <Footer/>
+    </>
+  }
+])
 
 export default App;

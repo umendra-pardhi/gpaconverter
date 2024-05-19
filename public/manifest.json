@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GPA Converter [DBATU]",
+  "name": "Effortlessly convert your DBATU grades! Get accurate SGPA to CGPA, CGPA to %, and Grades to SGPA conversions with our user-friendly online tool.",
   "icons": [
     {
       "src": "favicon.ico",

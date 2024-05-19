@@ -1,0 +1,42 @@
+.intro-block {
+    background-color: #47D3CE;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px; 
+    margin-bottom: 10px; 
+}
+
+.btn-primary{
+    background-color: #47D3CE;
+    border-color:#05b9b3;
+}
+
+.btn-primary:hover{
+    background-color: #04b3ad;
+    border-color:#049c97;
+
+}
+.btn-primary:active{
+    background-color: #04b3ad;
+    border-color:#049c97;
+
+}
+
+.bg-uni{
+    background-color: #47D3CE;
+    color:#fff;
+}
+
+.card{
+    overflow: hidden;
+}
+.anim:hover img{
+    filter:saturate(0.8);  
+}
+.card img{
+    filter:saturate(1.1);  
+}
