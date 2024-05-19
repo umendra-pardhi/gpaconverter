@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to GPA Converter!
+Effortlessly convert your DBATU grades! Get accurate CGPA to %, Grades to SGPA and SGPA to CGPA conversions with our user-friendly online tool.
 
 ## Available Scripts
 
